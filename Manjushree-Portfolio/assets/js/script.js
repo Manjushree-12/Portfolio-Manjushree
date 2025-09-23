@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Manjushree";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            $("#favicon").attr("href", "assets/images/pro_header.jpg");
         }
         else {
-            document.title = "Portfolio | Tanveer Ahmad";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            document.title = "Portfolio | Manjushree";
+            $("#favicon").attr("href", "assets/images/pro_header.jpg");
         }
     });
 
