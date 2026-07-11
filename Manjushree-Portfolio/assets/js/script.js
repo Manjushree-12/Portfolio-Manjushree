@@ -262,4 +262,16 @@ function horizontalScroll(carouselSelector, leftBtn, rightBtn) {
 horizontalScroll('.cert-carousel', '.cert-left', '.cert-right');
 horizontalScroll('.achieve-carousel', '.achieve-left', '.achieve-right');
 
+/* SCROLL EXPERIENCE */
 
+srtop.reveal('.experience .heading', {
+    delay: 200
+});
+
+srtop.reveal('.experience .box', {
+    interval: 200
+});
+
+srtop.reveal('.experience .tech-stack span', {
+    interval: 100
+});
