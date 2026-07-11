@@ -1336,4 +1336,77 @@ form .button-area {
 .scroll-btn.cert-right {
   right:10px; /* Offset from the edge */
 }
+/* Professional Experience */
 
+.professional-experience{
+    background:#fff;
+    min-height:70vh;
+}
+
+.professional-experience .heading{
+    color:#002057;
+}
+
+.professional-experience .heading span{
+    color:#da0416;
+}
+
+.professional-experience .box-container{
+    display:flex;
+    justify-content:center;
+    margin-top:3rem;
+}
+
+.professional-experience .box{
+    width:85%;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    padding:3rem;
+    transition:.3s;
+}
+
+.professional-experience .box:hover{
+    transform:translateY(-6px);
+}
+
+.professional-experience h3{
+    font-size:2.5rem;
+    color:#002057;
+}
+
+.professional-experience h4{
+    font-size:1.8rem;
+    color:#da0416;
+    margin:1rem 0;
+}
+
+.professional-experience p{
+    font-size:1.5rem;
+    margin-bottom:1rem;
+}
+
+.professional-experience ul{
+    margin-left:2rem;
+}
+
+.professional-experience li{
+    font-size:1.5rem;
+    margin:1rem 0;
+    text-transform:none;
+}
+
+.tech-stack{
+    margin-top:2rem;
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+}
+
+.tech-stack span{
+    background:#da0416;
+    color:#fff;
+    padding:.8rem 1.5rem;
+    border-radius:20px;
+    font-size:1.3rem;
+}
